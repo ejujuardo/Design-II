@@ -1,0 +1,23 @@
+We will be using two electrodes: Fp1 (one inch above left eye) and Fp2 
+(one inch above right eye).
+
+We will be extracting two frequency bands from each electrode: alpha (8 
+- 12 Hz) and beta (12 - 30 Hz).
+
+Alpha waves are associated with relaxation and beta waves are associated 
+with excitation.
+
+These frequency bands are free of noise from muscles, eyes, electronics, 
+heart, &c.
+
+We will be measuring two emotion characteristics: valence (pleasant - 
+unpleasant) and arousal (excitation - inhibition).
+
+Left frontal inactivation -> negative valence.
+Right frontal inactivation -> positive valence.
+
+We will use the following formulas: valence = (a_Fp2/b_Fp2) - (a_Fp1/b_Fp1), where a_Fp2 means the alpha band power from electrode Fp2. [Ramirez 2012]
+
+Note: In [Bhaveek 2018], the formula for valence has the division flipped. E.g. b/a instead of a/b as in [Ramirez 2012].
+
+arousal = (b_Fp1 + b_Fp2)/(a_Fp1 + a_Fp2), [Bhaveek 2018]
